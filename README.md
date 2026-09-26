@@ -119,7 +119,7 @@ dotnet pack src/SaudiIdValidator -c Release -o artifacts
 
 ## Publishing
 
-Pushing a tag like `v1.0.0` triggers the GitHub Actions workflow in `.github/workflows/publish.yml`, which tests, packs and pushes the package to NuGet. It requires a repository secret named `NUGET_API_KEY`. The tag version overrides the `<Version>` in the csproj.
+Pushing a tag like `v1.0.0` triggers the GitHub Actions workflow in `.github/workflows/publish.yml`, which tests, packs and pushes the package to NuGet using [Trusted Publishing](https://learn.microsoft.com/en-us/nuget/nuget-org/trusted-publishing), so no long-lived API key is stored. It requires a Trusted Publishing policy on nuget.org for this repository and workflow file (`publish.yml`), and a repository secret `NUGET_USER` containing the nuget.org username. The tag version overrides the `<Version>` in the csproj.
 
 ## Contributing
 
