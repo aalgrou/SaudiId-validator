@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SaudiIdValidator.ConsoleApp/SaudiIdValidator.ConsoleApp.csproj" />
+    <Project Path="src/SaudiIdValidator/SaudiIdValidator.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SaudiIdValidator.Tests/SaudiIdValidator.Tests.csproj" />
+  </Folder>
+</Solution>
