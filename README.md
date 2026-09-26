@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/aalgrou/SaudiId-validator/main/assets/icon.png" alt="" width="40" align="top"> SaudiIdValidator
+# SaudiIdValidator
 
 [![NuGet](https://img.shields.io/nuget/v/SaudiIdValidator.svg)](https://www.nuget.org/packages/SaudiIdValidator)
 [![NuGet downloads](https://img.shields.io/nuget/dt/SaudiIdValidator.svg)](https://www.nuget.org/packages/SaudiIdValidator)
