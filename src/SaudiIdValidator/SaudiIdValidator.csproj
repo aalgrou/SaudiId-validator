@@ -19,6 +19,7 @@
     <PackageTags>saudi;ksa;national-id;iqama;border-number;validation;luhn;arabic-digits</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://github.com/aalgrou/SaudiId-validator</PackageProjectUrl>
     <RepositoryUrl>https://github.com/aalgrou/SaudiId-validator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -31,6 +32,7 @@
 
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\assets\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
